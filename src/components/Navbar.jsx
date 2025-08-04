@@ -10,8 +10,8 @@ const Navbar = () => {
                 boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)'
             }}
         >
-            <Link To='/' > <FaGithub size={40} /> </Link>
             <Link To='/' > <TbHome size={40} /> </Link>
+            <Link To='https://github.com/MOHAMMED-IQRAMUL/Mini_Projects' > <FaGithub size={40} /> </Link>
         </div >
     )
 }
