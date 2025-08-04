@@ -10,7 +10,7 @@ export default function App() {
   return (
     <main >
       <Navbar />
-      <Routes  basename="/MINI_PROJECTS" >
+      <Routes  basename="/Mini_Projects" >
         <Route path="/" element={<Home />} />
         <Route path="/Terminal-Bot" element={<TerminalBot />} />
         <Route path="*" element={<NotFound />} />
