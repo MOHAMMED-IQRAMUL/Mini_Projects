@@ -11,7 +11,7 @@ export default function App() {
     <main >
       <Navbar />
       <Routes >
-        <Route path="/" element={<Home />} />
+        <Route path="/MINI_PROJECTS" element={<Home />} />
         <Route path="/Terminal-Bot" element={<TerminalBot />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

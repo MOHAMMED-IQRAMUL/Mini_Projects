@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [
     react(), 
     tailwindcss()
-  ]
+  ],
+  base:'/MINI_PROJECTS/'
 });
-
-// base:'/MINI_PROJECTS/'
