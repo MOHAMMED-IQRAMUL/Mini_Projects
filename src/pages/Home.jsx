@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div className="min-w-screen min-h-screen bg-gray-100 flex items-center justify-center">
-            <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col items-center space-y-4">
-                <h1 className="text-3xl font-bold text-gray-800 mb-2">Mini Projects</h1>
-                <div className="w-72 bg-gray-50 rounded-md p-6 flex flex-col items-center shadow">
-                    <p className="text-xl font-semibold text-gray-700 mb-2">Terminal-Bot</p>
+        <div className="min-w-screen min-h-screen bg-gradient-to-br from-blue-100 to-purple-200 flex items-center justify-center">
+            <div className="bg-white shadow-2xl rounded-2xl p-10 flex flex-col items-center space-y-8">
+                <h1 className="text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">Mini Projects</h1>
+                <div className="w-80 bg-gradient-to-r from-purple-100 to-blue-50 rounded-xl p-8 flex flex-col items-center shadow-lg">
+                    <p className="text-2xl font-semibold text-gray-800 mb-4">Terminal-Bot</p>
                     <Link
                         to="/Terminal-Bot"
-                        className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                        className="mt-2 px-6 py-3 bg-blue-700 text-white rounded-lg font-medium hover:bg-blue-800 transition-all duration-200 shadow"
                     >
                         Visit Project
                     </Link>
