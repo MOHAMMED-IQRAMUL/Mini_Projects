@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 
 import TerminalBot from './pages/TerminalBot';
 import PostCreaterBot from "./pages/PostCreaterBot"
+import SocialIconUi from "./pages/SocialIconUi"
 
 import './index.css'
 
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Terminal-Bot" element={<TerminalBot />} />
         <Route path="/Post-Creater-Bot" element={<PostCreaterBot />} />
+        <Route path="/Social-Icon-Ui" element={<SocialIconUi/>} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
