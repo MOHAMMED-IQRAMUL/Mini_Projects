@@ -42,12 +42,4 @@ This collection features a variety of small, focused React projects designed to 
 Contributions are welcome!  
 Feel free to open issues or submit pull requests to add new projects or improve existing ones.
 
----
 
-## ⭐️ Show Your Support
-
-If you find these projects helpful, please give this repo a star!
-
----
-
-Happy Coding! 🎉
