@@ -19,18 +19,25 @@ This collection features a variety of small, focused React projects designed to 
 ## 🛠️ Getting Started
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/your-username/Mini_Projects.git
     ```
+
 2. **Navigate to a project folder:**
+
     ```bash
     cd Mini_Projects/project-name
     ```
+
 3. **Install dependencies:**
+
     ```bash
     npm install
     ```
+
 4. **Start the development server:**
+
     ```bash
     npm start
     ```
@@ -41,5 +48,3 @@ This collection features a variety of small, focused React projects designed to 
 
 Contributions are welcome!  
 Feel free to open issues or submit pull requests to add new projects or improve existing ones.
-
-
