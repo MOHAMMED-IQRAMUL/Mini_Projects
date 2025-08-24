@@ -8,6 +8,7 @@ import PostCreaterBot from "./pages/PostCreaterBot"
 import SocialIconUi from "./pages/SocialIconUi"
 
 import './index.css'
+import GitHubProfileViewer from './pages/GitHubProfileViewer';
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
         <Route path="/Terminal-Bot" element={<TerminalBot />} />
         <Route path="/Post-Creater-Bot" element={<PostCreaterBot />} />
         <Route path="/Social-Icon-Ui" element={<SocialIconUi/>} />
+        <Route path="/GitHub-Profile-Viewer" element={<GitHubProfileViewer/>} />
+
 
         <Route path="*" element={<NotFound />} />
       </Routes>
