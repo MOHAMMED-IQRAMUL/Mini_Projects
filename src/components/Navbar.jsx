@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div
-            className="fixed top-2 right-2 p-2 flex items-center justify-center rounded-2xl bg-white shadow-lg border border-white/30 z-50 gap-5"
-            style={{
-                boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)'
-            }}
-        >
-            <Link To='/' > <TbHome size={40} /> </Link>
-            <Link To='https://github.com/MOHAMMED-IQRAMUL/Mini_Projects' > <FaGithub size={40} /> </Link>
-        </div >
+        <nav className="fixed top-4 right-4 p-3 flex items-center justify-center rounded-2xl bg-white/80 shadow-xl border border-white/30 z-50 gap-6 backdrop-blur-md">
+            <Link to='/' className="hover:scale-110 transition-transform" title="Home">
+                <TbHome size={32} />
+            </Link>
+            <a href='https://github.com/MOHAMMED-IQRAMUL/Mini_Projects' target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform" title="GitHub">
+                <FaGithub size={32} />
+            </a>
+        </nav>
     )
 }
 
