@@ -52,6 +52,7 @@ const reply = data.choices?.[0]?.message?.content.replace(/\[\d+\]/g, '').trim()
             setMessages(prev => [...prev, { role: 'assistant', content: reply }]);
         } catch (err) {
             setMessages(prev => [...prev, { role: 'assistant', content: '⚠️ AI Error occurred.' }]);
+            
         } finally {
             setLoading(false);
         }

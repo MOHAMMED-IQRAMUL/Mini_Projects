@@ -9,6 +9,8 @@ import TerminalBot from './pages/TerminalBot';
 import PostCreaterBot from './pages/PostCreaterBot';
 import SocialIconUi from './pages/SocialIconUi';
 import GitHubProfileViewer from './pages/GitHubProfileViewer';
+import GoogleFontTester from "./pages/GoogleFontTester";
+
 import './index.css';
 
 export default function App() {
@@ -23,6 +25,7 @@ export default function App() {
         <Route path="/Post-Creater-Bot" element={<PostCreaterBot />} />
         <Route path="/Social-Icon-Ui" element={<SocialIconUi />} />
         <Route path="/GitHub-Profile-Viewer" element={<GitHubProfileViewer />} />
+        <Route path="/Google-Font-Tester" element={<GoogleFontTester />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
