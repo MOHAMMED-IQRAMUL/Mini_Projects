@@ -10,6 +10,7 @@ import PostCreaterBot from './pages/PostCreaterBot';
 import SocialIconUi from './pages/SocialIconUi';
 import GitHubProfileViewer from './pages/GitHubProfileViewer';
 import GoogleFontTester from "./pages/GoogleFontTester";
+import AIAgent1 from './pages/AIAgent1';
 
 import './index.css';
 
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/Social-Icon-Ui" element={<SocialIconUi />} />
         <Route path="/GitHub-Profile-Viewer" element={<GitHubProfileViewer />} />
         <Route path="/Google-Font-Tester" element={<GoogleFontTester />} />
+        <Route path="/AI-Agent-1" element={<AIAgent1 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
